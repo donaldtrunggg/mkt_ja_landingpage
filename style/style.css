@@ -1,0 +1,60 @@
+span, p, img, h1, h2, h3, h4, h5 {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cl-blue {
+    color: #00baf2
+}
+
+.cl-dark-blue {
+    color: #065b89
+}
+
+.cl-gray-blue {
+    color: #065b89
+}
+
+.cl-orange {
+    color: #ff8517
+}
+
+.cl-white {
+    color: #fff
+}
+
+.cl-dark-gray {
+    color: #6e6e6e
+}
+
+.cl-gray {
+    color: #e4e4e4
+}
+
+.cl-purple {
+    color: #1e2748;
+}
+
+.cl-light-purple {
+    color: #1c2544;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-orange {
+    background-color: #f68c1e;
+}
+
+.bg-purple {
+    background-color: #1e2748;
+}
+
+.mg-t-10 {
+    margin-top: -10px;
+}

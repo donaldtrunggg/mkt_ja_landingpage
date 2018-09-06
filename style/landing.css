@@ -1,0 +1,235 @@
+ @font-face {
+     font-family: GothamNarrow;
+     src: url('../font/GothamNarrow-Black_0.otf') format('otf'),
+     url('../font/GothamNarrow-Bold_0.otf') format('otf'),
+     url('../font/GothamNarrow-BoldItalic_0.otf') format('otf'),
+     url('../font/GothamNarrow-Book_0.otf') format('otf'),
+     url('../font/GothamNarrow-Medium_0.otf') format('otf'),
+     url('../font/GothamNarrow-MediumItalic_0.otf') format('otf'),
+     ;
+ }
+
+ @font-face {
+     font-family: UVFCelestial;
+     src: url('../font/UVFCelestial-Regular.otf') format('otf'),
+     ;
+ }
+
+ body {
+     background-image: url('../img/background.jpg');
+     background-size: 100%;
+     background-position: cover;
+     background-repeat: no-repeat;
+     font-family: GothamNarrow, sans-serif
+ }
+
+ header {
+     background: #fff;
+     padding-top: 5px
+ }
+
+ header img {
+     max-height: 50px;
+     padding: 5px 0;
+ }
+
+ .main-banner {
+     padding-top: 80px;
+ }
+
+ .img-banner {
+     width: 600px;
+ }
+
+ .main-banner img {
+ 	width: 100%
+ }
+
+ .main-banner .title h1:first-child {
+     font-size: 50px;
+ }
+
+ .main-banner .title h1 {
+     font-size: 40px;
+     line-height: 20px
+ }
+
+ .main-banner .note9 {
+     padding: 50px 65px 0 65px;
+ }
+
+ .main-banner .note9 p {
+     margin-top: -70px;
+     font-size: 20px;
+     padding: 0 75px
+ }
+
+ .main-banner .note9 .btn {
+     width: 100%
+ }
+
+ .download-app {
+     padding-top: 20px
+ }
+
+ .download-app img {
+     width: 100%
+ }
+
+ .shadow-text {
+     font-weight: 600;
+     text-shadow: 0 0 3px #fff, 0 0 5px #fff;
+ }
+
+ .btn-curve {
+     border-radius: 35px;
+ }
+
+ .btn-click {
+     font-family: UVFCelestial, sans-serif;
+     font-size: 25px;
+     font-weight: 500;
+     padding: 10px 0;
+     transition: color 2s
+ }
+
+ .btn-click:hover {
+     text-decoration: none;
+     color: #00baf2;
+     cursor: pointer;
+ }
+
+ .main-profile {
+     padding: 100px 0
+ }
+
+ .main-profile .title h2 {
+     font-weight: 600;
+     font-size: 29px
+ }
+
+ .main-profile .title p {
+     font-size: 20px;
+     line-height: 5px
+ }
+
+ .description h3:last-child {
+     font-weight: 600;
+     line-height: 5px
+ }
+
+ .main-profile .description {
+     width: 60%;
+     position: absolute;
+     margin-top: -10px
+ }
+
+ .main-jobalert .description {
+     position: absolute;
+     right: 0;
+     padding-top: 13px;
+     padding-right: 13px
+ }
+
+ .main-jobalert {
+     padding-bottom: 100px
+ }
+
+ .break-down {
+     border: solid 3px;
+     width: 10%
+ }
+
+ .main-profile .break-down {
+     float: right
+ }
+
+ .img-girl {
+     height: 750px
+ }
+
+ .img-phone {
+     height: 750px;
+     padding-top: 50px
+ }
+
+ .main-profile .title,
+ .main-profile .title p {
+     float: right;
+ }
+
+ .main-jobalert .img-phone {
+     float: right
+ }
+
+ .main-gift {
+     padding-top: 200px;
+     padding-bottom: 100px
+ }
+
+ .main-gift .award h2 {
+     text-transform: uppercase;
+     font-weight: 600
+ }
+
+ .main-gift .infomation {
+     padding-top: 50px
+ }
+
+ .main-gift .infomation h3 {
+     font-weight: 600
+ }
+
+ .main-gift .infomation p {
+     line-height: 25px;
+     font-size: 24px
+ }
+
+ .main-gift .download-app {
+     padding-top: 5px;
+     padding-left: 30px
+ }
+
+ .download-app img:hover {
+     cursor: pointer;
+ }
+
+ .main-gift .download-app img {
+     width: 100px
+ }
+
+ .main-gift .info {
+     padding: 10px 0
+ }
+
+ .main-gift .break-down {
+ 	width: 15%
+ }
+
+ .main-gift>* {
+     color: #1c2544
+ }
+
+ .step {
+     padding: 6px 0
+ }
+
+ .step .circle {
+     display: inline-table
+ }
+
+ .step span {
+     font-size: 24px
+ }
+
+ .circle {
+     border-radius: 50%;
+     width: 25px;
+     height: 25px;
+     background: #ebfafe;
+     border: 2px solid black;
+     color: black;
+     text-align: center;
+     font: 16px Arial, sans-serif;
+     padding-top: 3px
+ }

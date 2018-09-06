@@ -1,0 +1,32 @@
+ @media screen and (max-width: 767px) {
+     header img {
+         max-height: 30px;
+     }
+
+     body {
+     	background-position: 0 20px
+     }
+
+.main-banner {
+	padding-top: 15px
+}
+
+     .img-banner {
+     	width: 170px;
+     	padding-left: 40px
+     }
+
+     .main-banner .note9 {
+     	padding: 20px 15px 0 70px
+     }
+
+     .main-banner .note9 p {
+     	margin-top: -10px;
+     	font-size: 6px;
+     	padding: unset;
+     }
+
+     .btn-click {
+     	font-size: 8px
+     }
+ }
