@@ -20,7 +20,8 @@
      background-size: 100%;
      background-position: cover;
      background-repeat: no-repeat;
-     font-family: GothamNarrow, sans-serif
+     font-family: GothamNarrow, sans-serif;
+     overflow-x: hidden
  }
 
  header {
@@ -42,7 +43,7 @@
  }
 
  .main-banner img {
- 	width: 100%
+     width: 100%
  }
 
  .main-banner .title h1:first-child {
@@ -124,14 +125,18 @@
      margin-top: -10px
  }
 
- .main-jobalert .description {
-     position: absolute;
-     right: 0;
-     padding-top: 13px;
-     padding-right: 13px
+ .main-profile .step2 {
+     padding-top: 100px
  }
 
- .main-jobalert {
+ .main-profile .step2 .description {
+     position: absolute;
+     right: 0;
+     padding-top: 20px;
+     margin-right: -60px
+ }
+
+ .main-profile {
      padding-bottom: 100px
  }
 
@@ -158,7 +163,7 @@
      float: right;
  }
 
- .main-jobalert .img-phone {
+ .main-profile .step2 .img-phone {
      float: right
  }
 
@@ -203,7 +208,7 @@
  }
 
  .main-gift .break-down {
- 	width: 15%
+     width: 15%
  }
 
  .main-gift>* {

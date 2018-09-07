@@ -4,29 +4,84 @@
      }
 
      body {
-     	background-position: 0 20px
+         background-position: 0 20px
      }
 
-.main-banner {
-	padding-top: 15px
-}
+     .main-banner {
+         padding-top: 15px
+     }
 
      .img-banner {
-     	width: 170px;
-     	padding-left: 40px
+         width: 170px;
+         padding-left: 40px
      }
 
      .main-banner .note9 {
-     	padding: 20px 15px 0 70px
+         padding: 20px 15px 0 70px
      }
 
      .main-banner .note9 p {
-     	margin-top: -10px;
-     	font-size: 6px;
-     	padding: unset;
+         margin-top: -10px;
+         font-size: 6px;
+         padding: unset;
      }
 
      .btn-click {
-     	font-size: 8px
+         font-size: 8px;
+         padding: 3px 0
+     }
+
+     .download-app {
+         padding-top: 0
+     }
+
+     .download-app .col-xs-6:first-child {
+         padding-right: 1px
+     }
+
+     .download-app .col-xs-6:last-child {
+         padding-left: 1px
+     }
+
+     .main-profile {
+         padding-top: 30px
+     }
+
+     .main-profile .title h2 {
+         font-size: 13px;
+         margin-bottom: 5px;
+         margin-top: 10px
+     }
+
+     .main-profile .title p {
+         font-size: 10px
+     }
+
+     .break-down {
+         border: solid 2px;
+         margin-bottom: 0px
+     }
+
+     .main-profile .phone {
+         text-align: center;
+     }
+
+     .img-phone {
+         height: 260px;
+         padding-top: 10px
+     }
+
+     .phone .description {
+         position: unset;
+         width: 100%
+     }
+
+     .phone .description h3 {
+         font-size: 14px;
+         line-height: 0
+     }
+
+     .main-profile .step2 .img-phone {
+         float: unset;
      }
  }
